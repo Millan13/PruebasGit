@@ -7,4 +7,8 @@
 
 3) Modificación desde local
 
+
 4) Modicación desde github
+
+5)Modificación desde local usando rama prueba
+
