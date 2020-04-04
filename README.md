@@ -10,5 +10,7 @@
 
 4) Modicación desde github
 
-5)Modificación desde local usando rama prueba
+5) Modificación desde local usando rama prueba
+
+6) Modificacion desde github
 
