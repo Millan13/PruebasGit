@@ -7,3 +7,4 @@
 
 3) Modificación desde local
 
+4) Modicación desde github
