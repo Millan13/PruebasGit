@@ -4,3 +4,5 @@ PRUEBA1: MODIFICANDO EN BRANCH PRUEBA
 
 
 Prueba2: Modificnaod en una nueva rama con un commit previamente hecho desde github sin haber clonado el repo
+
+MODIFICANDO DESDE GITHUB SIN CLONAR EL REPO Y PROBANDO EL MERGE
