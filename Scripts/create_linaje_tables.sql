@@ -16,7 +16,7 @@ create table linaje.ejecuciones (
   "tag_script" VARCHAR(20),
   "tipo_ejec" VARCHAR(1),
   "url_webscrapping" VARCHAR(100),
-  "status_ejec" VARCHAR(1)
+  "status_ejec" VARCHAR(5)
 );
 comment on table linaje.ejecuciones is 'describe los datos principales de las ejecuciones';
 
