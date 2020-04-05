@@ -6,7 +6,7 @@
 /**************************** Título ejecuciones ****************************/
 drop table if exists linaje.ejecuciones;
 create table linaje.ejecuciones (
-  "id_ejec" VARCHAR(20),
+  "id_ejec" VARCHAR(100),
   "id_archivo" VARCHAR(20),
   "usuario_ejec" VARCHAR(20),
   "instancia_ejec" VARCHAR(20),
