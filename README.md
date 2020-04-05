@@ -6,5 +6,6 @@
 
 2) Modificación desde local
 
+3) Modificación en github
 
 
