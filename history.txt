@@ -1,0 +1,902 @@
+    1  uname -r
+    2  sudo rmmod i2c_hid
+    3  sudo modprobe i2c_hid
+    4  cat /etc/fedora-release 
+    5  sudo dnf install -y grubby
+    6  sudo grubby --update-kernel=ALL --args="systemd.unified_cgroup_hierarchy=0"
+    7  sudo reboot
+    8  sudo dnf config-manager --add-repo=https://download.docker.com/linux/fedora/docker-ce.repo
+    9  sudo dnf install docker-ce
+   10  sudo systemctl enable --now docker
+   11  Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /usr/lib/systemd/system/docker.service.
+   12  systemctl enable --now docker
+   13  docker --v
+   14  docker -v
+   15  sudo groupadd docker
+   16  sudo usermod -aG docker Millan
+   17  docker build -t ma-rstudio
+   18  sudo  dnf remove docker
+   19  docker -v
+   20  sudo  dnf remove docker-common
+   21  sudo  dnf remove docker-selinux
+   22  sudo  dnf remove docker-engine-selinux
+   23  sudo  dnf remove docker-engine
+   24  docker -v
+   25  sudo dnf provides docker
+   26  sudo dnf install moby-engine -y
+   27  systemctl status docker
+   28  systemctl start docker
+   29  systemctl status docker
+   30  docker images
+   31  sudo docker images
+   32  systemctl status docker
+   33  sudo docker ps -a
+   34   sudo groupadd docker
+   35  sudo usermod -aG docker $USER
+   36  reboot
+   37  dnf install lyx
+   38  sudo dnf install lyx
+   39  lyx
+   40  kpsewhich article.cls
+   41  docker ps
+   42  docker build -t ma-rstudio
+   43  docker build -t ma-rstudio .
+   44  sudo rmmod i2c_hid
+   45  sudo modprobe i2c_hid
+   46  sudo rmmod i2c_hid
+   47  sudo modprobe i2c_hid
+   48  sudo rmmod i2c_hid
+   49  sudo modprobe i2c_hid
+   50  sudo rmmod i2c_hid
+   51  sudo modprobe i2c_hid
+   52  sudo yum install check
+   53  cat /etc/issue
+   54  source /etc/os-release
+   55  echo $ID
+   56  echo $VERSION_ID
+   57  echo $VERSION
+   58  reboot
+   59  sudo rmmod i2c_hid
+   60  sudo modprobe i2c_hid
+   61  sudo dnf install snapd
+   62  sudo ln -s /var/lib/snapd/snap /snap
+   63  snap install spotify
+   64  snaop
+   65  4snap
+   66  snap
+   67  snap install spotify
+   68  reboot
+   69  sudo rmmod i2c_hid
+   70  sudo modprobe i2c_hid
+   71  sudo rmmod i2c_hid
+   72  sudo modprobe i2c_hid
+   73  sudo rmmod i2c_hid
+   74  sudo modprobe i2c_hid
+   75  snap install whatsapp
+   76  snap install whatsdesk
+   77  whatsdesk
+   78  sudo ln -s /var/lib/snapd/snap /snap
+   79  sudo snap install whatsdek
+   80  sudo snap install whatsdesk
+   81  snap help refresh
+   82  sudo rmmod i2c_hid
+   83  sudo modprobe i2c_hid
+   84  sudo rmmod i2c_hid
+   85  sudo modprobe i2c_hid
+   86  sudo rmmod i2c_hid
+   87  sudo modprobe i2c_hid
+   88  sudo rmmod i2c_hid
+   89  sudo modprobe i2c_hid
+   90  sudo snap remove whatsdesk
+   91  sudo rmmod i2c_hid
+   92  sudo modprobe i2c_hid
+   93  sudo rmmod i2c_hid
+   94  sudo modprobe i2c_hid
+   95  sudo rmmod i2c_hid
+   96  sudo modprobe i2c_hid
+   97  sudo rmmod i2c_hid
+   98  sudo modprobe i2c_hid
+   99  sudo rmmod i2c_hid
+  100  sudo modprobe i2c_hid
+  101  yum install texlive-scheme-full
+  102  sudo yum install texlive-scheme-full
+  103  docker -- version
+  104  docker images
+  105  docker pull rocker/rstudio
+  106  docker images
+  107  docker run --rm -p 8787:8787 -e PASSWORD=yourpasswordhere rocker/rstudio
+  108  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 rocker/rstudio
+  109  docker run -e PASSWORD=inferno13 --rm -p 8787:8787 rocker/rstudio
+  110  sudo yum remove -y docker-ce docker-ce-cli
+  111  docker --version
+  112  sudo yum remove docker docker-common docker-selinux docker-engine 
+  113  sudo yum remove -y docker-ce docker-ce-cli
+  114  docker --version
+  115  ls
+  116  pwd
+  117  cd ..
+  118  pwd
+  119  ls
+  120  cd etc
+  121  ls
+  122  cd docker
+  123  ls
+  124  rmv key.json 
+  125  rm key.json 
+  126  cd ..
+  127  rm -r docker
+  128  rm -r -f docker
+  129  rm -f docker
+  130  rm -f -R docker
+  131  sudo dnf remove docker
+  132  sudo dnf remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-selinux                   docker-engine-selinux                   docker-engine
+  133  sudo dnf -y install dnf-plugins-core
+  134  sudo dnf config-manager     --add-repo     https://download.docker.com/linux/fedora/docker-ce.repo
+  135  sudo dnf install docker-ce docker-ce-cli containerd.io
+  136   sudo grubby --update-kernel=ALL --args="systemd.unified_cgroup_hierarchy=0"
+  137  sudo systemctl start docker
+  138  sudo docker run hello-world
+  139  sudo groupadd docker
+  140  sudo usermod -aG docker $USER
+  141  reboot
+  142  docker --version
+  143  docker images
+  144  docker 
+  145  sudo docker images
+  146  sudo systemctl enable docker
+  147  sudo chkconfig docker on
+  148  docker images
+  149  sudo systemctl daemon-reload
+  150  sudo systemctl restart docker.service
+  151  docker images
+  152  docker rmi rocker/rstudio:latest 
+  153  docker images
+  154  docker pull rocker/rstudio
+  155  docker images
+  156  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 rocker/rstudio
+  157  pwd
+  158  pwd
+  159  yum install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
+  160  sudo yum install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
+  161  sha256sum /path/filename
+  162  bash ~/Downloads/Anaconda3-2019.10-Linux-x86_64.sh
+  163  bash ~/home/miguelmillan13/Descargas/Anaconda3-2019.10-Linux-x86_64.sh
+  164  bash ~/Descargas/Anaconda3-2019.10-Linux-x86_64.sh
+  165  exit
+  166  sudo yum install git
+  167  jupyter-lab
+  168  exit
+  169  dnf distro-sync -y
+  170  sudo dnf distro-sync -y
+  171  sudo reboot now
+  172  snap find <search terms>
+  173  snap find
+  174  sudo dnf repolist | grep rpmfusion
+  175  dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+  176  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+  177  sudo rpm --import https://raw.githubusercontent.com/UnitedRPMs/unitedrpms/master/URPMS-GPG-PUBLICKEY-Fedora
+  178  sudo dnf -y install https://github.com/UnitedRPMs/unitedrpms/releases/download/15/unitedrpms-$(rpm -E %fedora)-15.fc$(rpm -E %fedora).noarch.rpm
+  179  apt install tlp tlp-rdw -y
+  180  sudo apt install tlp tlp-rdw -y
+  181  sudo tlp-stat -b
+  182  tlp start
+  183  sudo dnf install tlp tlp-rdw
+  184  systemctl enable tlp.service
+  185  systemctl enable tlp-sleep.service
+  186  exit
+  187  sudo dnf install lyx
+  188  docker build -t ma-rstudio
+  189  docker pull felipexgonzalez/metodos-analiticos-2020
+  190  docker images
+  191  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  192  docker build -t ma-rstudio
+  193  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  194  docker build -t ma-rstudio
+  195  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 rocker/rstudio
+  196  docker images
+  197  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 felipexgonzalez/metodos-analiticos-2020
+  198  docker images
+  199  docker run --rm -v /home/miguelmillan13/Documentos/Programas/Docker:/datos --name jupyterlab_c_kernel_local -p 8888:8888 -d palmoreck/jupyterlab_c_kernel:1.1.0
+  200  pwd
+  201  cd ..
+  202  pwd
+  203  cd ..
+  204  ls
+  205  cd var
+  206  ls
+  207  cd lib
+  208  ls
+  209  cd docker
+  210  ls
+  211  sudo ls
+  212  cd image
+  213  sudo cd image
+  214  ls
+  215  sudo ls
+  216  ls
+  217  sudo ls
+  218  }sudo cd image
+  219  sudo cd image
+  220  ls
+  221  sudo ls
+  222  pwd
+  223  docker images
+  224  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 felipexgonzalez/metodos-analiticos-2020
+  225  docker build -t ma-rstudio .
+  226  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  227  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos:/home/rstudio/ma ma-rstudio
+  228  docker images
+  229  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 felipexgonzalez/metodos-analiticos-2020
+  230  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos:/home/rstudio/ma ma-rstudio
+  231  exit
+  232  docker build -t ma-rstudio .
+  233  git clone https://github.com/felipegonzalez/metodos-analiticos-mcd-2020.git
+  234  jupyter-lab
+  235  pwd
+  236  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos:/datos --name jupyterlab_c_kernel_local -p 8888:8888 -d palmoreck/jupyterlab_c_kernel:1.1.0
+  237  docker images
+  238  docker ps
+  239  sudo dnf update
+  240  sudo reboot
+  241  pwd
+  242  git clone https://github.com/ITAM-DS/analisis-numerico-computo-cientifico.git
+  243  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker:/datos --name jupyterlab_local -p 8888:8888 -d palmoreck/jupyterlab:1.1.0
+  244  docker images
+  245  docker start jupyterlab_c_kernel
+  246  docker start palmoreck/jupyterlab_c_kernel
+  247  docker ps
+  248  docker ps -a
+  249  docker stats
+  250  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker:/datos --name jupyterlab_local -p 8888:8888 -d palmoreck/jupyterlab:1.1.0
+  251  docker images
+  252  docker start palmoreck/jupyterlab
+  253  docker ps
+  254  docker images
+  255  docker run palmoreck/jupyterlab:1.1.0
+  256  docker ps -a
+  257  docker ps
+  258  docker rm palmoreck/jupyterlab:1.1.0
+  259  docker stop jupyterlab-local
+  260  docker run -v $/home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker:/datos --name jupyterlab-local -p 8888:8888 -d $REPO_URL:$JUPYTERLAB_VERSION
+  261  docker images
+  262  docker rm rocker/rstudio
+  263  docker ps -a
+  264  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker:/datos --name jupyterlab_local -p 8888:8888 -d palmoreck/jupyterlab:1.1.0
+  265  docker ps
+  266  pip3 install --user --upgrade tensorflow
+  267  sudo ssh-keygen
+  268  cd .ssh
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd ..
+  273  ls
+  274  cd ..
+  275  ls
+  276  deactivate
+  277  conda deactivate
+  278  ls
+  279  cd .ssh
+  280  pwd
+  281  ls
+  282  cd root
+  283  sudo cd root
+  284  ls
+  285  sudo cd root
+  286  pwd
+  287  cd root
+  288  cd home
+  289  ls
+  290  cd miguelmillan13/
+  291  ls
+  292  pwd
+  293  mkdir .ssh
+  294  ls
+  295  sudo ssh-keygen
+  296  ssh-keygen
+  297  jupyter-lab
+  298  pip3 install --user --upgrade tensorflow
+  299  jupyter.lab
+  300  jupyter-lab
+  301  git pull
+  302  docker run --rm -p 8787:8787 -e PASSWORD=inferno13 -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  303  pwd
+  304  conda deactivate
+  305  cd .ssh
+  306  ssh -i "mmillankey.pem" ubuntu@ec2-18-236-91-52.us-west-2.compute.amazonaws.com
+  307  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  308  ls
+  309  ssh-copy-id -i id_rsaLau.pub lauragmz@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  310  ssh-copy-id -i aws_dpaMarco.pub ronmoy@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  311  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  312  ls
+  313  ssh-copy-id -i aws_dpaMarco.pub ronmoy@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  314  ssh-copy-id -i id_rsaLau.pub lauragmz@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  315  ssh-copy-id -i -f id_rsaLau.pub lauragmz@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  316  pwd
+  317  ls
+  318  nano id_rsa_dpaEli.pub 
+  319  ssh-copy-id -i id_rsa_dpaEli.pub eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  320  ssh-copy-id -i id_rsalll_dpaEli.pub eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  321  ssh-copy-id -i id_rsalll_dpaEli.pub -f eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  322  ssh-copy-id -i aws_dpaMarco.pub ronmoy@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  323  ssh-copy-id -f -i -f id_rsaLau.pub lauragmz@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  324  ssh-copy-id -f -i id_rsaLau.pub lauragmz@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  325  ls
+  326  ssh-copy-id -f -i id_rsa_dpaEli.pub eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  327  ssh-copy-id -f -i id_rsaRo rodri@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  328  ssh-copy-id -f -i aws_dpaMarco.pub ronmoy@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  329  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  330  ssh-copy-id -f -i id_rsaLil.pub liliana@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  331  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  332  conda deactivate
+  333  ls
+  334  cd ..
+  335  ls
+  336  cd miguelmillan13/
+  337  ls
+  338  cd .ssh
+  339  ls
+  340  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  341  conda deactivate
+  342  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  343  ssh-copy-id -f -i id_rsa_dpaEli.pub eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  344  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  345  ssh-copy-id -f -i id_rsaEli.pub eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  346  ssh-keygen
+  347  ssh-copy-id -f -i id_rsa_Eli2.pub eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  348  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  349  ssh-copy-id -f -i id_rsa_Eli2.pub eli@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  350  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  351  ssh-copy-id -f -i id_rsaEli3.pub elir@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  352  ssh -i "mmillankey.pem" ubuntu@ec2-52-39-131-1.us-west-2.compute.amazonaws.com
+  353  ssh -i "mmillankey.pem" ubuntu@ssh -i "mmillankey.pem" ubuntu@ec2-52-43-11-136.us-west-2.compute.amazonaws.com
+  354  conda deactivate
+  355  ssh -i "mmillankey.pem" ubuntu@ec2-52-43-11-136.us-west-2.compute.amazonaws.com
+  356  git pull
+  357  docker images
+  358  docker ps -a
+  359  docker ps
+  360  git status
+  361  git commit -m "Ejemplo de sistema mal condicionado" -i 1.3.Condicion_de_un_problema_y_estabilidad_de_un_algoritmo.ipynb 
+  362  git push origin master
+  363  git pull
+  364  git push origin master
+  365  git pull
+  366  git pull origin master
+  367  git clone https://github.com/mno-2020-gh-classroom/ejercicios-condicion-y-estabilidad-mno-Millan13.git
+  368  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repo_Privado:/datos --name jupyterlab_local -p 8888:8888 -d palmoreck/jupyterlab:1.1.0
+  369  docker ps
+  370  docker stop jupyterlab_local
+  371  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repo_Privado:/datos --name jupyterlab_local -p 8888:8888 -d palmoreck/jupyterlab:1.1.0
+  372  docker ps
+  373  docker stop jupyterlab_local
+  374  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repo_Privado:/datos --name jupyterlab_local -p 8888:8888 -d palmoreck/jupyterlab:1.1.0
+  375  docker stop jupyterlab_local
+  376  git pull origin master
+  377  ls
+  378  jupyter-lab
+  379  ls
+  380  git pull origin master
+  381  pwd
+  382  pwd
+  383  git clone https://github.com/mno-2020-gh-classroom/ejercicios-condicion-y-estabilidad-mno-Millan13.git
+  384  conda deactivate
+  385  cd
+  386  ls
+  387  cd Documentos/
+  388  cd ITAM/
+  389  ls
+  390  cd Segundo_Semestre/
+  391  ls
+  392  cd Metodos_Numericos/
+  393  ls
+  394  cd Docker/
+  395  ls
+  396  cd Repo_Privado/
+  397  ls
+  398  cd ejercicios-condicion-y-estabilidad-mno-Millan13/
+  399  git pull origin master
+  400  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repo_Privado/ejercicios-condicion-y-estabilidad-mno-Millan13:/datos --name jupyterlab_local -p 8888:8888 -d palmoreck/jupyterlab:1.1.0
+  401  ls
+  402  git status
+  403  git commit -m "Solusicon 2 Sistema mal condicionado" -i 1.3.Condicion_de_un_problema_y_estabilidad_de_un_algoritmo.ipynb 
+  404  git push origin master
+  405  pwd
+  406  uname -a
+  407  sudo dnf install zsh
+  408  zsh
+  409  cd .ssh
+  410  conda deactivate
+  411  ssh -i "mmillankey.pem" ubuntu@ec2-54-187-39-186.us-west-2.compute.amazonaws.com
+  412  cd .ssh
+  413  ssh -i "mmillankey.pem" ubuntu@10.0.1.69
+  414  ls
+  415  scp -i id_rsa ubuntu@ec2-54-187-39-186.us-west-2.compute.amazonaws.com
+  416  scp -i id_rsa ubuntu@ec2-54-187-39-186.us-west-2.compute.amazonaws.com:/home/ubuntu/ssh
+  417  scp -i id_rsa id_rsa ubuntu@ec2-54-187-39-186.us-west-2.compute.amazonaws.com:/home/ubuntu/ssh
+  418  ssh -i "mmillankey.pem" ubuntu@ec2-54-187-39-186.us-west-2.compute.amazonaws.com
+  419  conda deactivate
+  420  scp -i id_rsa id_rsa ubuntu@ec2-54-187-39-186.us-west-2.compute.amazonaws.com:/home/ubuntu/.ssh
+  421  ssh -i "mmillankey.pem" ubuntu@ec2-54-187-39-186.us-west-2.compute.amazonaws.com
+  422  conda deactivate
+  423  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  424  conda deactivate
+  425  git pull
+  426  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  427  pwd
+  428  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  429  git pull
+  430  git pull origin master
+  431  conda deactivate
+  432  git pull origin master
+  433  git fetch
+  434  git pull origin master
+  435  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  436  git pull origin master
+  437  conda deactivate
+  438  git clone https://github.com/felipegonzalez/metodos-analiticos-mcd-2020.git
+  439  ls
+  440  cd metodos-analiticos-mcd-2020/
+  441  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  442  exit
+  443  conda deactivate
+  444  git clone https://github.com/mno-2020-gh-classroom/ejercicios-de-dif-e-int-numerica-Millan13.git
+  445  pwd
+  446  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repos_Privado:/datos --name jupyterlab_numerical -p 8888:8888 -p 8786:8786 -p 8787:8787 -d palmoreck/jupyterlab_numerical:1.1.0
+  447  conda deactivate
+  448  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repos_Privado:/datos --name jupyterlab_numerical -p 8888:8888 -p 8786:8786 -p 8787:8787 -d palmoreck/jupyterlab_numerical:1.1.0
+  449  docker ps 
+  450  docker stop
+  451  docker stop palmoreck/jupyterlab_numerical:1.1.0
+  452  git status
+  453  git commit -m "Ejercicio minimo global" -i 1.4.Polinomios_de_Taylor_y_diferenciacion_numerica.ipynb 
+  454  git commit -m "Metodo de simpson" -i 1.5.Integracion_numerica.ipynb 
+  455  git status
+  456  git push origin master
+  457  docker stop jupyterlab_r_kernel_local
+  458  docker stop jupyterlab_numerical
+  459  conda deactivate
+  460  git pull origin master
+  461  git clone https://github.com/ITAM-DS/analisis-numerico-computo-cientifico.git
+  462  pwd
+  463  docker run --rm -v <ruta a mi directorio>:/datos --name jupyterlab_r_kernel_local -p 8888:8888 -d palmoreck/jupyterlab_r_kernel:1.1.0
+  464  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repos_Privado/ejercicios-de-dif-e-int-numerica-Millan13:/datos --name jupyterlab_r_kernel_local -p 8888:8888 -d palmoreck/jupyterlab_r_kernel:1.1.0
+  465  docker stop jupyterlab_r_kernel_local
+  466  docker ps
+  467  docker ps -a
+  468  git pull origin master
+  469  git clone https://github.com/mno-2020-gh-classroom/ejercicios-de-dif-e-int-numerica-Millan13.git
+  470  ls
+  471  cd ejercicios-de-dif-e-int-numerica-Millan13/
+  472  ls
+  473  cd ..
+  474  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repos_Privado/ejercicios-de-dif-e-int-numerica-Millan13:/datos --name jupyterlab_r_kernel_local -p 8888:8888 -d palmoreck/jupyterlab_r_kernel:1.1.0
+  475  docker stop jupyterlab_r_kernel_local
+  476  docker ps
+  477  pwd
+  478  conda deactivate
+  479  pwd
+  480  git clone https://github.com/mno-2020-gh-classroom/ejercicios-de-dif-e-int-numerica-Millan13.git
+  481  ls
+  482  cd ejercicios-de-dif-e-int-numerica-Millan13/
+  483  pwd
+  484  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repos_Privado/ejercicios-de-dif-e-int-numerica-Millan13:/datos --name jupyterlab_r_kernel_local -p 8888:8888 -d palmoreck/jupyterlab_r_kernel:1.1.0
+  485  git status
+  486  git commit -m "Gradiente y Hessiana" -i 1.4.Polinomios_de_Taylor_y_diferenciacion_numerica.ipynb 
+  487  git push origin master
+  488  docker stop jupyterlab_r_kernel_local
+  489  exit
+  490  jupyter.lab
+  491  jupyter-lab
+  492  cd .ssh
+  493  ls
+  494  ssh -i "mmillankey.pem" ubuntu@ec2-54-218-72-184.us-west-2.compute.amazonaws.com
+  495  exit
+  496  cd .ssh
+  497  ls
+  498  pwd
+  499  cd ..
+  500  ls
+  501  ls -l
+  502  ls -a
+  503  conda deactivate
+  504  cd .ssh
+  505  ls
+  506  ssh -i "mmillankey.pem" ubuntu@ec2-184-72-122-101.compute-1.amazonaws.com
+  507  conda deactivate
+  508  cd .ssh
+  509  ssh -i "mmillankey.pem" ubuntu@ec2-100-26-217-145.compute-1.amazonaws.com
+  510  conda deactivate
+  511  cd .ssh
+  512  ssh -i "mmillankey.pem" ubuntu@ec2-100-26-217-145.compute-1.amazonaws.com
+  513  conda deactivate
+  514  cd .ssh
+  515  ssh -i "mmillankey.pem" ubuntu@ec2-100-26-217-145.compute-1.amazonaws.com
+  516  pwd
+  517  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  518  pwd
+  519  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  520  git pull origin master
+  521  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  522  conda deactivate
+  523  cd ..sh
+  524  cd .ssh
+  525  ssh-copy-id -i id_rsa.pub mmillan@ec2-100-26-217-145.compute-1.amazonaws.com
+  526  ls
+  527  ssh-copy-id -i id_rsaLau.pub lauragmz@ec2-100-26-217-145.compute-1.amazonaws.com
+  528  ls
+  529  ssh-copy-id -i id_rsaLau.pub lauragmz@ec2-100-26-217-145.compute-1.amazonaws.com
+  530  ssh-copy-id -f -i id_rsaLau.pub lauragmz@ec2-100-26-217-145.compute-1.amazonaws.com
+  531  ssh -i "mmillankey.pem" ec2-user@ec2-3-86-81-148.compute-1.amazonaws.com
+  532  conda deactivate
+  533  cd .ssh
+  534  ssh -i "mmillankey.pem" ec2-user@ec2-3-86-81-148.compute-1.amazonaws.com
+  535  conda deactivate
+  536  ssh -i "mmillankey.pem" ec2-user@ec2-3-86-81-148.compute-1.amazonaws.com
+  537  conda deactivate
+  538  ssh -i "mmillankey" ec2-user@ec2-3-86-81-148.compute-1.amazonaws.com
+  539  conda deactivate
+  540  ssh -i "mmillankey" ec2-user@ec2-3-86-81-148.compute-1.amazonaws.com
+  541  conda deactivate
+  542  cd .ssh
+  543  ssh -i "mmillankey.pem" ec2-user@ec2-3-85-29-205.compute-1.amazonaws.com
+  544  conda deactivate
+  545  cd .ssh
+  546  ssh -i "mmillankey.pem" ec2-user@ec2-3-85-29-205.compute-1.amazonaws.com
+  547  conda deactivate
+  548  cd .ssh
+  549  ssh -i "mmillankey.pem" ec2-user@ec2-3-85-29-205.compute-1.amazonaws.com
+  550  conda deactivate
+  551  cd .ssh
+  552  ssh -i "mmillankey.pem" ec2-user@ec2-54-211-139-52.compute-1.amazonaws.com
+  553  pwd
+  554  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/00_install_packages.sh ec2-user@ec2-3-85-29-205.compute-1.amazonaws.com:/home/ec2-user/
+  555  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/* ec2-user@ec2-3-85-29-205.compute-1.amazonaws.com:/home/ec2-user/
+  556  ssh -i "mmillankey.pem" ec2-user@ec2-54-211-139-52.compute-1.amazonaws.com
+  557  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/Luigi.py ec2-user@ec2-me/ec2-user/
+  558  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/Luigi.py ec2-user@ec2-54-211-139-52.compute-1.amazonaws.com:/home/ec2-user/
+  559  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/60_send_to_s3.py  ec2-user@ec2-54-211-139-52.compute-1.amazonaws.com:/home/ec2-user/
+  560  ssh -i "mmillankey.pem" ec2-user@ec2-54-211-139-52.compute-1.amazonaws.com
+  561  exit
+  562  pwd
+  563  conda deactivate
+  564  conda config --set auto_activate_base False
+  565  source ~/.bashrc
+  566  conda activate
+  567  conda deactivate
+  568  exit
+  569  cd .ssh
+  570  ssh -i "mmillankey.pem" ec2-user@ec2-18-233-96-69.compute-1.amazonaws.com
+  571  ssh -i "mmillankey" ec2-user@ec2-18-233-96-69.compute-1.amazonaws.com
+  572  cd .ssh
+  573  ssh -i "mmillankey" ec2-user@ec2-18-233-96-69.compute-1.amazonaws.com
+  574  git pull origin master
+  575  pwd
+  576  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  577  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  578  exit
+  579  grep "processor" /proc/cpuinfo
+  580  htop
+  581  sudo dnf install htop
+  582  htop
+  583  sudo yum install pspp
+  584  pspp --version
+  585  pspp
+  586  git pull origin master
+  587  git clone https://github.com/mno-2020-gh-classroom/ejercicios-perfilamiento-y-compilacion-Millan13.git
+  588  ls
+  589  pwd
+  590  docker images
+  591  docker ps
+  592  docker run --rm -v <ruta a mi directorio>:/datos --name jupyterlab_numerical -p 8888:8888 -p 8786:8786 -p 8787:8787 -d palmoreck/jupyterlab_numerical:1.1.0
+  593  docker run --rm -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Numericos/Docker/Repos_Privado:/datos --name jupyterlab_numerical -p 8888:8888 -p 8786:8786 -p 8787:8787 -d palmoreck/jupyterlab_numerical:1.1.0
+  594  pw
+  595  pwd
+  596  git pull origin master
+  597  git status
+  598  git add Simpson.py 
+  599  git status
+  600  git add Rcf.py 
+  601  git add Simpson_memory_profiler.py 
+  602  git add Simpson2_memory_profiler.py 
+  603  git add profile.stats 
+  604  git status
+  605  git commit -m "Perfilamiento Python" -i 1.6.Perfilamiento_Python.ipynb 
+  606  git push origin master
+  607  git pull origin master
+  608  git status
+  609  git commit -m "Perfilamiento Python correcion" -i 1.6.Perfilamiento_Python.ipynb 
+  610  git push origin master
+  611  pwd
+  612  git pull origin master
+  613  git clone https://github.com/mno-2020-gh-classroom/ejercicios-de-dif-e-int-numerica-Millan13.git
+  614  git status
+  615  git commit -m "Correccion metodo de simpson" -i 1.5.Integracion_numerica.ipynb 
+  616  git push origin master
+  617  sqlite
+  618  wget https://packages.microsoft.com/yumrepos/ms-teams/teams-1.2.00.32451-1.x86_64.rpm
+  619  sudo dnf localinstall teams-1.2.00.32451-1.x86_64.rpm
+  620  pwd
+  621  jupyter-lab
+  622  conda activate
+  623  jupyter-lab
+  624  pwd
+  625  ls
+  626  echo -e ".separator ","\n.import /home/aj/ora_exported.csv qt_exported2" | sqlite3 testdatabase.db
+  627  echo -e ".separator ","\n.import /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Datos/Rita/2018_01_january.csv" | sqlite3 prueba.db
+  628  sqlite3
+  629  pwd
+  630  hotspot
+  631  sudo yum localinstall zoom_x86_64.rpm
+  632  git pull origin master
+  633  pwd
+  634  docker run --rm -p 8787:8787 -v ~/tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  635  pwd
+  636  docker run --rm -p 8787:8787 -v ~/home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  637  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  638  pwd
+  639  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  640  exit
+  641  htop
+  642  conda activate
+  643  pip install jupyter_http_over_ws
+  644  jupyter serverextension enable --py jupyter_http_over_ws
+  645  jupyter notebook   --NotebookApp.allow_origin='https://colab.research.google.com'   --port=8888   --NotebookApp.port_retries=0
+  646  ps
+  647  cd .ssh
+  648  ls
+  649  ssh -i "mmillankey.pem" ubuntu@ec2-3-94-114-26.compute-1.amazonaws.com
+  650  psql -U postgres databaserita2.cmorxcukamuj.us-east-1.rds.amazonaws.com
+  651  cd .ssh
+  652  lds
+  653  ls
+  654  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  655  cd .ssh
+  656  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  657  cd .ssh
+  658  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  659  cd .ssh
+  660  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  661  cd .ssh
+  662  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  663  cd ,ssh
+  664  cd .ssh
+  665  ls
+  666  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  667  cd -ssh
+  668  cd .ssh
+  669  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  670  cd .ssh
+  671  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/00_install_packages.sh ec2-54-224-185-193.compute-1.amazonaws.com:/home/dpa/
+  672  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/00_install_packages.sh ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com:/home/dpa/
+  673  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/00_install_packages.sh ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com:/home/dpa
+  674  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  675  cd .ssh
+  676  ls
+  677  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  678  cd .ssh
+  679  ssh -i "mmillankey.pem" ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com
+  680  scp -i /home/miguelmillan13/.ssh/id_rsa /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Arquitectura_Datos/Proyecto/Luigi/00_install_packages.sh ec2-user@ec2-54-224-185-193.compute-1.amazonaws.com:/home/ec2-user/
+  681  cd .ssh
+  682  ssh -i "mmillankey.pem" ec2-user@ec2-18-232-103-229.compute-1.amazonaws.com
+  683  git pull origin master
+  684  pwd
+  685  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /tu/carpeta/local:/home/rstudio/ma ma-rstudio
+  686  docker run --rm -p 8787:8787 -e PASSWORD=mipass -v /home/miguelmillan13/Documentos/ITAM/Segundo_Semestre/Metodos_Analiticos/metodos-analiticos-mcd-2020:/home/rstudio/ma ma-rstudio
+  687  exit
+  688  cd .ssh
+  689  ssh -i "mmillankey.pem" ec2-user@ec2-3-88-111-175.compute-1.amazonaws.com
+  690  cd .ssh
+  691  ssh -i "mmillankey.pem" ec2-user@ec2-3-88-111-175.compute-1.amazonaws.com
+  692  cd .ssh
+  693  ssh -i "mmillankey.pem" ec2-user@ec2-3-88-111-175.compute-1.amazonaws.com
+  694  cd .ssh
+  695  ssh -i "mmillankey.pem" ec2-user@ec2-54-172-211-47.compute-1.amazonaws.com
+  696  exit
+  697  cd .ssh
+  698  ssh -i "mmillankey.pem" ec2-user@ec2-54-172-211-47.compute-1.amazonaws.com
+  699  cd .ssh
+  700  ssh -i "mmillankey.pem" ec2-user@ec2-54-172-211-47.compute-1.amazonaws.com
+  701  cd .ssh
+  702  ssh -i "mmillankey.pem" ec2-user@ec2-54-172-211-47.compute-1.amazonaws.com
+  703  cd .ssh
+  704  git clone https://github.com/Millan13/PruebasGit.git
+  705  ls
+  706  cd PruebasGit/
+  707  ls
+  708  git log
+  709  git branches
+  710  git branch
+  711  git checkout
+  712  git checkout Prueba
+  713  git branch Prueba
+  714  git branch
+  715  git checkout Prueba 
+  716  git branch
+  717  ks
+  718  ls
+  719  nano README.md 
+  720  git status
+  721  git log --oneline --decorate --all --graph
+  722  git add .
+  723  git commit -m "primer commit de la rama prueba"
+  724  git config --global --edit
+  725  git config --global user.email "miguelmillandorado@gmail.com"
+  726  git config --global user.name "MMillan"
+  727  git log
+  728  git log --oneline --decorate --all --graph
+  729  git l
+  730  ls
+  731  nano README.md 
+  732  git checkout master 
+  733  git che
+  734  git checkout 
+  735  git branch
+  736  ls
+  737  nano README.md 
+  738  git checkout Prueba 
+  739  ls
+  740  git branch 
+  741  nano README.md 
+  742  git brancj
+  743  git branch 
+  744  git checkout master 
+  745  git branch 
+  746  git merge Prueba 
+  747  ls
+  748  nano README.md 
+  749  git branch -d Prueba 
+  750  git branch
+  751  git log
+  752  git log --oneline --decorate --all --graph
+  753  git push origin master
+  754  git branch prueba2
+  755  git checkout prueba2 
+  756  nano README.md 
+  757  git add .
+  758  git commit -m "modificación en rama prueba2"
+  759  git log
+  760  git log --oneline --decorate --all --graph
+  761  git branch 
+  762  git checkout master 
+  763  git merge prueba2 
+  764  git push origin master 
+  765  git pull origin master
+  766  git add .
+  767  git commit -m "conflictos resuletos"
+  768  git push origin master
+  769  git checkout prueba3
+  770  git branch prueba3
+  771  git branch 
+  772  git checkout prueba3
+  773  git branch 
+  774  nano README.md 
+  775  git add .
+  776  git commit -m "rama prueba3 prueba fetch"
+  777  git log 
+  778  git checkout master
+  779  git branch 
+  780  git fetch
+  781  git rebase origin/master
+  782  git push origin master
+  783  nano Re
+  784  la
+  785  ls
+  786  nano README.md 
+  787  git merge prueba3
+  788  nano README.md 
+  789  git merge prueba3
+  790  nano README.md 
+  791  git fetch
+  792  nano README.md 
+  793  git rebase origin/master
+  794  git branch -d prueba2
+  795  git branch .d prueba3 
+  796  git branch -d prueba3
+  797  git branch -D prueba3
+  798  nano README.md 
+  799  git fetch
+  800  git rebase origin/master
+  801  git commit -m "4ta modificion local"
+  802  git add .
+  803  git commit -m "4ta modificion local"
+  804  git fetch
+  805  git rebase origin/master
+  806  git pul
+  807  git pull
+  808  git status
+  809  git add README.md 
+  810  git status
+  811  git rebase --continue
+  812  git status
+  813  git push
+  814  git status
+  815  nano README.md 
+  816  git add README.md 
+  817  git status
+  818  git commit -m "primera modificacion desde local"
+  819  git pull
+  820  nano README.md 
+  821  git status
+  822  git add .
+  823  git commit -m "resolviendo conflictos"
+  824  git pull
+  825  git push
+  826  nano README.md 
+  827  git status
+  828  git add .
+  829  git commit -m "3 modificación desde local"
+  830  git status
+  831  git fetch
+  832  git status
+  833  git rebase origin/master
+  834  nano README.md 
+  835  git sta
+  836  git status 
+  837  git add .
+  838  git status
+  839  git commit -m "corrgiendo errores"
+  840  git status
+  841  git push
+  842  git push origin master
+  843  git rebase --continue
+  844  git rebase --skip
+  845  git status
+  846  git push origin master
+  847  git status
+  848  gir branch prueba
+  849  git branch prueba
+  850  git checkout prueba 
+  851  git branch 
+  852  nano README.md 
+  853  git checkout
+  854  git branch
+  855  git checkout master
+  856  git checkout prueba
+  857  git status
+  858  git add .
+  859  git commit -m " 5 modidicacion desde prueba"
+  860  git status
+  861  git checkout master 
+  862  git stuts
+  863  git status
+  864  git fetch
+  865  nano README.md 
+  866  git pull
+  867  nano README.md 
+  868  git merge prueba 
+  869  nano README.md 
+  870  git merge prueba 
+  871  nano README.md 
+  872  git status
+  873  git add .
+  874  git commit -m "arreglo de merge"
+  875  git status
+  876  git merge prueba 
+  877  git push
+  878  git checkout prueba
+  879  ls
+  880  cd Scripts/
+  881  ls
+  882  nano create_linaje_tables.sql 
+  883  git status
+  884  git add .
+  885  git commit -m "modificacion del sql"
+  886  git checkout master
+  887  git status
+  888  ls
+  889  nano create_linaje_tables.sql 
+  890  git pull
+  891  nano README.md 
+  892  cd ..
+  893  nano README.md 
+  894  git status
+  895  cd Scripts/
+  896  ls
+  897  nano create_linaje_tables.sql 
+  898  cd ..
+  899  ls
+  900  git merge prueba
+  901  git push
+  902  history > history.txt
